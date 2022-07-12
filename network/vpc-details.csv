@@ -1,0 +1,35 @@
+\n
+\n
+\n
+\n
+avelacom-vpc	172.50.0.0/16	vpc-025e7e529e8bfe71d	False
+strat-runner-vpc-prod	173.0.0.0/16	vpc-0790aca1749915930	False
+new-vpc-for-london	172.32.0.0/16	vpc-00e276da68b9644c5	False
+avelacom-vpc2	172.17.0.0/16	vpc-0a3025762485d9bec	False
+\n
+\n
+\n
+\n
+\n
+\n
+strat-runner-vpc-prod	10.0.0.0/16	vpc-08d7b5f03ac19bbce	False
+strat-runner-vpc-dev	74.0.0.0/16	vpc-047ce685597acec15	False
+\n
+\n
+\n
+\n
+avelacom-vpc2	172.18.0.0/16	vpc-0f06a515f06970248	False
+strat-runner-vpc-prod	10.0.0.0/16	vpc-0d31beef4507a8713	False
+strat-vpc-dev-01	172.40.0.0/16	vpc-0d4155c865fac61ec	False
+\n
+\n
+\n
+\n
+\n
+prod-jupyterhub/VPC	192.168.0.0/16	vpc-03f3fec36b11739fa	False
+stage-jupyterhub/VPC	192.168.0.0/16	vpc-0ff2ea017ec171ed1	False
+eksctl-prod-liferay-portal-cluster/VPC	192.168.0.0/16	vpc-0d30840e6aaff1a6a	False
+eksctl-stage-liferay-portal-cluster/VPC	192.168.0.0/16	vpc-0dc7bbea46c505052	False
+\n
+\n
+\n

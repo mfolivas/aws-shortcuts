@@ -11,6 +11,6 @@ while read f1
       do 
       Region=$f1
       echo "$Region\n" >> $VPC_DETAILS_FILE
-      aws ec2 describe-vpcs --profile $Profile --region $Region --output text --query 'Vpcs[].[Tags[?Key==`Name`].Value | [0],CidrBlock,VpcId,IsDefault]' --filter Name=isDefault,Values=false >> $VPC_DETAILS_FILE
+      aws ec2 describe-vpcs --profile $Profile --region $Region --output text --query 'Vpcs[].[Tags[?Key==`Name`].Value | [0],CidrBlock,VpcId,IsDefault]' >> $VPC_DETAILS_FILE
       echo "\n" >> $VPC_DETAILS_FILE  
 done < /tmp/regions.txt``
